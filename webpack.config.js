@@ -45,4 +45,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
   ],
+  optimization: {
+    usedExports: true,
+  },
 };
